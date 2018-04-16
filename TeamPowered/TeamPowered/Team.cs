@@ -8,5 +8,12 @@ namespace TeamPowered
 {
     class Team
     {
+        private string team;
+
+        public Team(string team)
+        {
+            this.team = team;
+        }
+        
     }
 }
